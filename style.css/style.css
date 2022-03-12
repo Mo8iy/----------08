@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    width: 1920px;
+}
+
+.header{
+    width: 1920px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.logo{
+    width: 224px;
+    height: 72px;
+    margin-top: 14px;
+    margin-left: 75px;
+}
+
+.header_links{
+    margin-top: 38px;
+    margin-right: 75px;
+}
+
+.header_link{
+    margin-right: 85px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.search{
+    width: 22px;
+    height: 22px;
+}
+
+.hero{
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+    background-image: url(../img/low-angle-photo-of-balconies-2462015\ 1.jpg);
+    width: 1770px;
+    height: 620px;
+}
+
+.hero_headline{
+    color: white;
+    margin-bottom: 24px;
+    font-size: 70px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 850px;
+}
+
+.hero_text{
+    color: white;
+    margin-bottom: 90px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 900px;
+    line-height: 30px;
+}
+
+.hero_btn{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    padding: auto;
+    background-color:rgb(255, 153,0) ;
+    border: 0px;
+    width: 280px;
+    height: 78px;
+}
+
+.about{
+    width: 1770px;
+    height: 943px;
+    margin: auto;
+}
+
+.about_headline{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: normal;
+}
+
+.about_text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 535px;
+    margin-top: 20px;
+    line-height: 32px;
+}
+
+.info_blocks{
+    display: flex;
+    margin-top: 50px;
+}
+
+.details_block{
+    background-image: url(../img/Rectangle\ 2.jpg);
+}
+
+.details_content{
+    background-color: rgba(0, 0, 0, 50%);
+    display: flex;
+    margin-top: 426px;
+    height: 196px;
+    width: 868px;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.details_text{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    width: 456px;
+    line-height: 32px;
+}
+
+.details_button{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: auto;
+    width: 175px;
+    height: 60px;
+    background: none;
+    border: 3px solid rgb(255, 153,0);
+    margin-top: 18px;
+}
+
+.consult_block{
+    border: 1px solid rgb(202,202,202);
+    margin-left: 32px;
+    height: 295px;
+    width: 870px;
+    display: flex;
+    padding-left: 60px;
+    padding-top: 65px;
+    padding-right: 60px;
+    padding-bottom: 65px;
+}
+
+.consult_info_headline{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.consult_info_text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 450px;
+}
+
+.quality_block{
+    border: 1px solid rgb(202,202,202);
+    margin-left: 32px;
+    height: 295px;
+    width: 870px;
+    display: flex;
+    padding-left: 60px;
+    padding-top: 65px;
+    padding-right: 60px;
+    padding-bottom: 65px;
+    margin-top: 32px;
+}
+
+.quality_info_headline{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.quality_info_text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 450px;
+}
